@@ -1,0 +1,18 @@
+@import "../body.scss";
+
+button {
+   appearance: none;
+   border: 5;
+   border-radius: 5px;
+   padding: 5px;
+   background: #5c5853;
+   color: #fff;
+   font-size: 14px;
+   &:hover {
+      background: #e6d7d702;
+   }
+   &:focus {
+      box-shadow: 0 0 0 1px rgba(151, 149, 149, 0.493);
+      outline: none;
+   }
+}

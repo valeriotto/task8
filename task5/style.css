@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet');
+body {
+  font-size: normal;
+  font-family: Roboto;
+  background-color: #c5c5c5;
+}
+
+p {
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 5;
+  border-radius: 5px;
+  padding: 5px;
+  background: #5c5853;
+  color: #fff;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #e6d7d702;
+}
+
+button:focus {
+  -webkit-box-shadow: 0 0 0 1px rgba(151, 149, 149, 0.493);
+          box-shadow: 0 0 0 1px rgba(151, 149, 149, 0.493);
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
